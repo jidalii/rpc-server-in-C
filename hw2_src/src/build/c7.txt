@@ -1,0 +1,4 @@
+[#CLIENT#] INFO: setting client port as: 2222
+[#CLIENT#] INFO: Initiating connection...
+[#CLIENT#] Prepping REQ 0
+[#CLIENT#] Connection closed by the server.

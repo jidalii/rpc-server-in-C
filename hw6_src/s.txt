@@ -1,0 +1,123 @@
+INFO: setting queue size = 100
+INFO: setting server port as: 2222
+INFO: Waiting for incoming connection...
+INFO: Worker thread 0 (TID = 1278) started!
+[#WORKER#] 22066.737087 Worker Thread Alive!
+handle_connection: before send
+handle_connection: after send
+T1 R0:22066.743375,IMG_REGISTER,1,1,0,22066.738545,22066.743042,22066.743343
+handle_connection: after add to queue
+worker_main: before switch
+worker_main: img horizedges
+worker_main: after switch
+worker_main: before send
+worker_main: before send img
+worker_main: before printf
+T0 R1:22067.053909,IMG_HORIZEDGES,1,0,0,22066.942956,22066.943173,22067.053848
+Q:[]
+handle_connection: after add to queue
+worker_main: before switch
+handle_connection: after add to queue
+handle_connection: after add to queue
+worker_main: after switch
+worker_main: before send
+worker_main: before send img
+worker_main: before printf
+T0 R2:22067.208585,IMG_SHARPEN,1,0,0,22067.095824,22067.095854,22067.208572
+Q:[R3,R4]
+worker_main: before switch
+handle_connection: before send
+handle_connection: after send
+T1 R5:22067.251546,IMG_REGISTER,1,0,1,22067.249583,22067.251447,22067.251535
+worker_main: after switch
+worker_main: before send
+worker_main: before send img
+worker_main: before printf
+T0 R3:22067.321117,IMG_SHARPEN,1,0,0,22067.117852,22067.208737,22067.321107
+Q:[R4]
+worker_main: before switch
+worker_main: after switch
+worker_main: before send
+worker_main: before send img
+worker_main: before printf
+T0 R4:22067.321420,IMG_RETRIEVE,1,0,0,22067.150415,22067.321148,22067.321150
+Q:[]
+handle_connection: after add to queue
+worker_main: before switch
+worker_main: after switch
+worker_main: before send
+worker_main: before send img
+worker_main: before printf
+T0 R6:22067.647965,IMG_BLUR,1,0,0,22067.575817,22067.575846,22067.647946
+Q:[]
+handle_connection: before send
+handle_connection: after send
+T1 R7:22067.705886,IMG_REGISTER,1,2,2,22067.702254,22067.705872,22067.705879
+handle_connection: after add to queue
+worker_main: before switch
+worker_main: after switch
+worker_main: before send
+worker_main: before send img
+worker_main: before printf
+T0 R8:22067.881968,IMG_BLUR,1,2,2,22067.746435,22067.746460,22067.881959
+Q:[]
+handle_connection: after add to queue
+worker_main: before switch
+worker_main: after switch
+worker_main: before send
+worker_main: before send img
+worker_main: before printf
+T0 R9:22067.909920,IMG_RETRIEVE,1,1,1,22067.909459,22067.909482,22067.909483
+Q:[]
+handle_connection: after add to queue
+worker_main: before switch
+worker_main: img horizedges
+handle_connection: after add to queue
+worker_main: after switch
+worker_main: before send
+worker_main: before send img
+worker_main: before printf
+T0 R10:22068.042529,IMG_HORIZEDGES,1,0,0,22067.932447,22067.932469,22068.042521
+Q:[R11]
+worker_main: before switch
+worker_main: img horizedges
+handle_connection: after add to queue
+handle_connection: after add to queue
+handle_connection: after add to queue
+worker_main: after switch
+worker_main: before send
+worker_main: before send img
+worker_main: before printf
+T0 R11:22068.250640,IMG_HORIZEDGES,1,2,2,22067.957087,22068.042562,22068.250626
+Q:[R12,R13,R14]
+worker_main: before switch
+worker_main: after switch
+worker_main: before send
+worker_main: before send img
+worker_main: before printf
+T0 R12:22068.259473,IMG_ROT90CLKW,1,1,1,22068.051949,22068.250676,22068.259466
+Q:[R13,R14]
+worker_main: before switch
+handle_connection: after add to queue
+worker_main: after switch
+worker_main: before send
+worker_main: before send img
+worker_main: before printf
+T0 R13:22068.331320,IMG_BLUR,1,0,0,22068.126268,22068.259509,22068.331313
+Q:[R14,R15]
+worker_main: before switch
+worker_main: img horizedges
+handle_connection: after add to queue
+worker_main: after switch
+worker_main: before send
+worker_main: before send img
+worker_main: before printf
+T0 R14:22068.539203,IMG_HORIZEDGES,1,2,2,22068.160894,22068.331347,22068.539196
+Q:[R15,R16]
+worker_main: before switch
+handle_connection: after add to queue
+handle_connection: after add to queue
+worker_main: after switch
+worker_main: before send
+worker_main: before send img
+worker_main: before print
