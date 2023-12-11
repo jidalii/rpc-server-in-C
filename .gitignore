@@ -1,3 +1,6 @@
 .ipynb_checkpoints
 .vscode
 **/.DS_Store
+hw7_src/images
+hw7_src/test_images
+hw7_src/src
