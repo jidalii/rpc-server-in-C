@@ -437,13 +437,6 @@ void handle_connection(int conn_socket, struct connection_params conn_params)
 	common_worker_params.conn_socket = conn_socket;
 	common_worker_params.the_queue = the_queue;
 
-	// ***** start: image array setup ***** 
-	// uint64_t count = 0;
-	// static struct image ** image_arr = (struct image **)malloc(sizeof(struct image *));
-	// static struct image ** image_arr;
-	// common_worker_params.image_arr = image_arr;
-	// ***** end: image array setup ***** 
-
 	res = control_workers(WORKERS_START, conn_params.workers, &common_worker_params);
 
 	/* Do not continue if there has been a problem while starting
